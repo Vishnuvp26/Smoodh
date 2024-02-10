@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+}
+header{
+    width: 100%;
+    background-color: #110124;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 50;
+    height: 70px;
+}
+.logo{
+    height: 25.30px;
+    margin-left: 20px;
+}
+nav{
+    margin-right: 20px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+nav a:hover{
+    color: tomato;
+}
+.banner{
+    height: 120vh;
+    width: 100%;
+    background-image: url(Images/Bg\ image\ 1.jpg);
+    background-size: cover;
+}
+.Mid{
+    display: flex;
+    flex-direction: row; 
+    height: 900px;
+    width: 100%;
+   
+}
+.blue{
+    background-color: #2FC1DE;
+    width: 780px;
+
+}
+.t2{
+    font-size: 24px;
+    line-height: 1.2;   
+    text-align: justify;
+    margin-top: 150px;
+    margin-left: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.products{
+    height: 120vh;
+    width: 100%;
+    background-image: url(Images/products.jpg);
+    background-size: cover;
+}
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    width: 140px;
+    justify-content:space-between; 
+    margin-left: 130px;
+}
+/* .leaf{
+    height: 500px;
+    width: 190px;
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 220px;
+} */
+/* .t1{
+    color: #812529;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 900;
+    z-index: 1;
+
+} */
+
+.leaf{
+    width: 190px;
+    margin-left: 200px;
+    margin-top: 190px;
+}
+.t1{
+    color:#812529;
+    width: 60%;
+    z-index: 1;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 800;
+    margin-top: -450px;
+    margin-left: 80px;
+}
+.adress{
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+} 
+.footer-sec1{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    height: 180px;
+    margin-top: 30px;
+}
+.mail{
+    list-style-type: none;
+    text-align: justify;
+    margin-left: -40px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+.footer-sec3{
+    font-size: 14px;
+}
+/* p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: red;
+}
+.footericons{
+    display: flex;
+    flex-direction: row;
+    height: 28px;
+    width: 130px;
+    justify-content:space-between;
+}
